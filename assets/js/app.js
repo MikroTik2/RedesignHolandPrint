@@ -1,3 +1,17 @@
+const menuBtn = document.querySelector('.menu-btn');
+ let menuOpen = false;
+ menuBtn.addEventListener('click', () => {
+    if(!menuBtn) {
+        menuBtn.classList.toggle('open');
+        menuOpen = true;
+    } else {
+        menuBtn.classList.toggle('open');
+        menuOpen - false;
+    }
+ })
+
+
+
 const animItems = document.querySelectorAll('._anim-items');
 
 if(animItems.length > 0) {
