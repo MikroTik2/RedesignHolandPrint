@@ -270,7 +270,7 @@ body {
    margin: 0px auto;
    min-height: 45vh;
    display: flex;
-   padding: 0px 0px 15vh 0px;
+   /* padding: 0px 0px 15vh 0px; */
    flex-direction: column;
    justify-content: flex-end;
    color: var(--black-color);
@@ -675,7 +675,7 @@ body {
    color: var(--while-300);
    font-weight: 400;
    font-size: 18px;
-   margin-bottom: 220px;
+   margin-bottom: 50px;
 }
 
 .btn-link:hover {
@@ -691,7 +691,7 @@ body {
    gap: 98px;
    padding-top: 100px;
    justify-content: center;
-   padding-bottom: 158px;
+   padding-bottom: 50px;
  }
  
  .menu-footer__title {
@@ -873,7 +873,6 @@ body {
     display: grid;
     gap: 78px;
     padding-top: 100px;
-    padding-bottom: 158px;
   }
   .fullscreen__text {
    padding: 0 150px;
@@ -1418,6 +1417,7 @@ body {
       position: relative;
       z-index: 1;
       transition: .35s ease color;
+      color: #fff;
   }
    .list-hover-link a:before {
       content: '';
