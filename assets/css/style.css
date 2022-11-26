@@ -32,18 +32,15 @@ body {
 .container {
    padding: 0 25px;
 }
-
 ._container {
   padding: 0 62px;
 }
 ._container-small {
    padding: 0 10px;
 }
-
 .container-content {
    padding: 0 62px;
 }
-
 .page {
   padding-top: 21px;
 }
@@ -84,7 +81,7 @@ body {
    transform: scalex(0);
 }
 
-.header-menu-item:after, .menu-link>button:after {
+.header-menu-item:after, .header-menu-item>button:after {
   content: "";
   position: absolute;
   width: 100%;
@@ -150,16 +147,6 @@ body {
    height: 100%;
    background: #000;
 }
-
-@keyframes header-leftStrip {
-   0% {
-      left: 0%;
-   }
-   100% {
-      left: 500px;
-   }
-}
-
 
 .left-card {
   padding: 90px 21px 0px 52px;
@@ -1326,10 +1313,6 @@ body {
       width: 100vw;
       height: 100vw;
       z-index: 10;
-   }
-
-   .menubox .burger-menu__overlay {
-     
    }
    
    .unstyled a {
