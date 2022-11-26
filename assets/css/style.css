@@ -1434,6 +1434,7 @@ body {
       position: relative;
       z-index: 1;
       transition: .35s ease color;
+      color: #fff;
   }
    .list-hover-link a:before {
       content: '';
