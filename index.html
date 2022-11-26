@@ -8,7 +8,6 @@
    <link href="assets/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
    <link href="assets/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
    <link href="assets/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:type" content="website" />
 	 <meta property="og:title" content="holandprint" />
@@ -21,18 +20,46 @@
 	 <meta name="twitter:card" content="summary_large_image" />
     <title>HolandPrint</title>
    </head>
-   <body>
-      <header class="header">
-         <div class="_container">
-            <div class="header-menu-items">
-               <div class="header-images">
-                  <a href="#"><img src="assets/img/logo.png" alt="Logo-Icon"></a> 
-                  <div class="menu-btn">
-                     <div class="menu-btn__burger"></div>
+   <body>  
+      <div class="_container">       
+         <div class="header-first">
+            <div class="header-images">
+               <a href="#"><img src="assets/img/logo.png" alt="Logo-icon"></a>
+                <div class="menu-btn-none">
+                  <div class="menu-btn__burger">
+                     <input id="menu-toggle" type="checkbox" />
+                      <label class="menu-btn" for="menu-toggle">
+                        <span></span>
+                      </label>  
+                     <ul class="menubox">
+                         <header class="header-burger" role="banner">
+                             <h1 class="logo">
+                               <a href="#">Holand <span>Print</span></a>
+                             </h1>
+                           <div class="nav-wrap">
+                           <nav class="main-nav" role="navigation">
+                              <ul class="unstyled list-hover-slide ">
+                                 <li><a href="#">Головна</a></li>
+                                 <li><a href="#">Прайс</a></li>
+                                 <li><a href="#">Про нас</a></li>
+                                 <li><a href="#">Магазин</a></li>
+                              </ul>
+                           </nav>
+                           <ul class="social-links list-inline unstyled list-hover-slide">
+                              <li><a href="#">KievStar</a></li>
+                              <li><a href="#">Instagram</a></li>
+                              <li><a href="#">Viber</a></li>
+                              <li><a href="#">Vodafone</a></li>
+                            </ul>
+                        </div>
+                        <div class="burger-menu__overlay">
+                           
+                        </div>
+                     </header>
+                     </ul>
                   </div>
                </div>
-            </div>
-            <div class="header-first">
+               </div>
                <div class="header-leftStrip"></div>
                <br>
                <nav class="header-section">
@@ -41,19 +68,17 @@
                      <div class="header-menu-item"><a href="#">Прайс</a></div>
                      <div class="header-menu-item"><a href="#">Контаки</a></div>
                      <div class="header-menu-item"><a href="#">Про нас</a></div>
+                     <div class="header-menu-item"><a href="#">Магазин</a></div>
                   </div>
+                  
                   <div class="header-none">
                      <div class="header-section">
-                     <div class="header-menu-item"><a href="#">Магазин</a></div>
-                     <div class="header-menu-item"><a href="#">Аккаунт</a></div>
-                     <!--<div class="header-icon">
-                        <a href="#"><img src="assets/img/Lupa.png" alt="Magnifying-glass-Icons"></a>
-                     </div>-->
+                     </div>
                   </div>
-               </div>
-            </nav>
-         </div>
+               </nav>
+            </div>
       </div>
+    </div>
       <div class="container-content">
          <div class="content-color">
             <div class="content">
@@ -66,7 +91,7 @@
                    <p class="text-header">Світ змінюється, споживачам вже непотрібні звичайні поліетиленові або пластмасові пакети та коробки. Вони бажають якісного, а деякі принципово екологічного пакування. Запрошуємо до співпраці, а ми гарантуємо якість, відповідальність та індивідуальний підхід до Ваших замовлень.</p>
                     <div class="button-header">
                        <div class="button">
-                           <a href="#" class="btn-header">Замовити</a>
+                           <a href="#" class="btn-header">Замовити <i class="fa-solid fa-arrow-right"></i></a>
                        </div>
                     </div>
                </div>
@@ -111,7 +136,7 @@
        <div class="container">
           <div class="row-two row-cols-two">
             <div class="col-two">
-              <a href="" class="categories__item item-category">
+                <a href="" class="categories__item item-category">
                   <div class="item-category__title">Пакети</div>
                   <div class="item-category__image">
                      <img src="assets/img/Upackovka-packet-1.png" alt="Categories">
@@ -119,35 +144,35 @@
                 </a>
             </div>
             <div class="col-two">
-              <a href="" class="categories__item item-category">
+                <a href="" class="categories__item item-category">
                   <div class="item-category__title">Харчова упаковка</div>
                   <div class="item-category__image">
                      <img src="assets/img/Charchova-Upackovka.png" alt="Categories">
                   </div>
                 </a>
             </div>
-            <div class="col-two">
-              <a href="" class="categories__item item-category">
+              <div class="col-two">
+                <a href="" class="categories__item item-category">
                   <div class="item-category__title">Упаковка</div>
                   <div class="item-category__image">
                      <img src="assets/img/box.png" alt="Categories">
                   </div>
                 </a>
-            </div>
-            <div class="col-two">
-              <a href="" class="categories__item item-category">
-                  <div class="item-category__title">Сувенірка</div>
-                  <div class="item-category__image">
+               </div>
+                  <div class="col-two">
+                    <a href="" class="categories__item item-category">
+                   <div class="item-category__title">Сувенірка</div>
+                   <div class="item-category__image">
                      <img src="assets/img/Suvenirka.png" alt="Categories">
-                  </div>
-                </a>
+                   </div>
+                  </a>
+                 </div>
+               </div>
+               </div>
+              </div>
             </div>
-          </div>
-        </div>
-          </div>
-        </div>
+         </div>
       </div>
-    </div>
    </div>
 </section>
   <section class="popular">
@@ -220,7 +245,7 @@
          </div>
       </div>
       <div class="button-link _anim-items _anim-no-hide">
-         <a href="#" class="btn-link" style="color: #fff;">Перейти</a>
+         <a href="#" class="btn-link" style="color: #fff;">Перейти <i class="fa-solid fa-arrow-right"></i></a>
        </div>
      </div>
   </section>
@@ -251,46 +276,55 @@
               <nav class="body-footer__menu menu-footer">
                 <div class="menu-footer__column">
                   <ul class="menu-footer__list">
-                      <li class="menu-footer__item">
-                        <a href="#" class="menu-footer__link">About</a>
-                      </li>
-                      <li class="menu-footer__item">
-                        <a href="#" class="menu-footer__link">Privacy Policy</a>
-                      </li>
-                      <li class="menu-footer__item">
-                        <a href="#" class="menu-footer__link">Terms & Condition</a>
-                      </li>
+                     <li class="menu-footer__item">
+                       <a href="#" class="menu-footer__link">About</a>
+                     </li>
+                     <li class="menu-footer__item">
+                       <a href="#" class="menu-footer__link">Privacy Policy</a>
+                     </li>
+                     <li class="menu-footer__item">
+                       <a href="#" class="menu-footer__link">Terms & Condition</a>
+                     </li>
                   </ul>
-              </div>
-          </div>
-          <div class="input">
-              <p class="text-input">Subscrible to the newsletter</p>
-              <div class="group">      
+               </div>
+             </div>
+             <div class="login-box">
+               <h2 class="title-input">Subscrible to the newsletter</h2>
+               <form>  
+                 <div class="user-box">
+                   <input type="password" name="" required="">
+                   <label>Your gmail</label>
+                 </div>
+               </form>
+             </div>
+            <!--<div class="input">
+                <p class="text-input">Subscrible to the newsletter</p>
+               <div class="group">      
                 <input type="text" required style="color: #fff;">
                 <span class="highlight"></span>
                 <span class="bar"></span>
                 <label>Your name</label>
-              </div>    
-          </div>
-          <div class="social">
-              <h2 class="title-social">Social Media</h2>
-              <div class="social-images">
+               </div>    
+             </div>-->
+            <div class="social">
+                <h2 class="title-social">Social Media</h2>
+               <div class="social-images">
                 <a href="#"><img src="assets/img/instagram-icon.png" alt="instagram-icon"></a> 
                 <a href="#"><img src="assets/img/olx-icon.png" alt="olx-icon"></a> 
                 <a href="#"><img src="assets/img/viber-icon.png" alt="viber-icon"></a>
-              </div>
-          </div>
+               </div>
+            </div>
+         </div>
       </div>
-  </div>
-  <div class="footer-down">
-      <h3 class="footer-right__text">HolandPrint @  2021</h3>
-      <div class="line"></div>
-      <h3 class="footer-left__text">Created by Andrey</h3>
-  </div>
-</div>
-</div>
- </footer>
- <script src="https://kit.fontawesome.com/fb8107ca91.js" crossorigin="anonymous"></script>
+        <div class="footer-down">
+            <h3 class="footer-right__text">HolandPrint @  2021</h3>
+         <div class="line"></div>
+            <h3 class="footer-left__text">Created by Andrey</h3>
+         </div>
+        </div>
+      </div>
+    </footer>
+   <script src="https://kit.fontawesome.com/fb8107ca91.js" crossorigin="anonymous"></script>
    <script src="assets/js/app.js"></script>
  </body>
 </html>
